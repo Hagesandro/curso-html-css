@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagens dinâmicas, áudio e vídeo</title>
+</head>
+<body>
+  <h1>Abrir site em dispositivos diferentes ou simplesmente altere o tamanho do seu navegador</h1>
+  <p>
+    <p>
+     <picture>
+      <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+      <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+       <img src="imagens/foto-g.png" alt="imagem flexível">
+     </picture> 
+    </p>
+     <p>
+      <ul>
+        <li><a href="imagens/DOR LOMBAR 2021.pdf" type="application/pdf">livro pdf</a></li>
+      </ul>
+     </p>
+     <p>
+      <ul>
+        <li><a href="imagens/foto-p.png" type="image/png">imagem teste</a></li>
+      </ul>
+     </p>
+    <h2>Reproduzir audio em html</h2>
+    <p>Vamos reproduzir um audio em html</p>
+    <audio src="midia/takeke_teste 2.mp3" controls autoplay></audio> <!--os formatos compatíveis sao mp3, wav, ogg é bom usar os 3 pois nem todos os navegadores aceitam mp3-->
+    <audio>
+      <source src="midia/takeke_teste 2.wav" type="audio/wav"> <!--audio/wav, audio/ogg são exemplos de media types de audio-->
+      <source src="midia/takeke_teste 2.ogg" type="audio/ogg">
+      </audio></p>
+      
+      
+  
+</body>
+</html>

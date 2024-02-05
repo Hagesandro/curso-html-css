@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vídeos em hospedagem própria</title>
+</head>
+<body>
+  <h1>Inserindo vídeos hospedado localmente</h1>
+  <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+      <!--Deve disponibilizar todos os tipos de arquivos para isso usaremos a tag video - controls e source. Veja o exemplo-->
+
+      <video width="560" poster="imagens/capa-video.png" controls loop>
+          <source src="midia/meu-video.mkv" type="video/mp4">
+          <source src="midia/meu-video.mp4" type="video/mp4">
+          <source src="midia/meu-video.webm" type="video/webm">
+          <source src="midia/meu-video.ogv" type="video/ogv">  
+                   
+      </video>
+      
+      <p>Se o navegador não tem compatibilidade comreprodução de vídeos, <a href="https://www.pexels.com/pt-br/procurar/videos/disco%20vinil/" target="_blank">acesse o site</a></p>p>
+
+        <h1>Inserindo vídeos do youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uRKiliQ_nY0?si=vgyivcCOQELimtWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
