@@ -1,10 +1,7 @@
 @font-face {
   font-family: idroid;
-  src: url("idroid.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+  src: url('/material\ projeto/fontes/idroid') format(opentype);
 }
-
 body {
   font-family: "idroid";
   background-color: #84E1AD;
@@ -25,7 +22,7 @@ h1 {
 
 
    span {
-    margin-top: 40px;
+    margin-top: 0px;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -33,9 +30,11 @@ h1 {
    nav {
     display: flex;
     font-size: 16px;
-    
-    
+    margin: 0;
    }
+    p {
+      margin: 0;
+    }
    
    
    #menu > p {
